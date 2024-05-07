@@ -11,7 +11,7 @@ spec:
       app: hello-world
   template:
     metadata:
-      name: hello-world-pod
+      name: hello-world
       labels:
         app: hello-world
     spec:
