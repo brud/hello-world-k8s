@@ -1,0 +1,9 @@
+﻿services:
+  hello-world:
+    image: brud/hello-world
+    build:
+      context: .
+      dockerfile: Dockerfile
+      
+    ports:
+      - "80:80"

@@ -1,0 +1,11 @@
+@HelloWorld_HostAddress = http://127.0.0.1:32769
+
+GET {{HelloWorld_HostAddress}}/api/v1/
+Accept: application/json
+
+###
+
+GET {{HelloWorld_HostAddress}}/api/v1/hello
+Accept: application/json
+
+###
